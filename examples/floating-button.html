@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            display: block;
+            background: #444;
+            color: #eee;
+            font-size: 1rem;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        article {
+            margin: 0 auto;
+            max-width: 36rem;
+            text-align: justify;
+        }
+
+        #back-to-top {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #fff;
+            background: #222;
+            border-radius: 4px;
+            border: 1px solid #777;
+
+            width: 2em;
+            height: 2em;
+
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+
+            cursor: pointer;
+        }
+
+        #back-to-top:hover {
+            background: #777;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Lorem Ipsum Dolor</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Molestias eaque doloribus reprehenderit aut autem ullam odit exercitationem ducimus voluptatibus quaerat iste repellat illum, corporis, ad dolor accusamus at maxime numquam. Ab, repellat reiciendis sint accusamus, commodi deleniti doloremque maiores dolores.</p>
+        <p>Vitae explicabo quia eius et quod culpa nihil, ratione, deleniti, omnis praesentium illo debitis accusantium delectus consectetur laboriosam sequi rerum dolores quo in? Soluta dicta sapiente doloremque quaerat, nesciunt esse quasi aliquam, pariatur repellat hic odit laudantium animi porro consectetur.</p>
+        <p>Et omnis, quaerat fuga! Delectus odio dolorum excepturi ea libero dolore non repellendus quo, alias quod expedita vel nemo! Odio, tempore. Nihil veniam minus consequuntur aut mollitia repellat ab eligendi harum neque debitis architecto explicabo incidunt obcaecati, quos quibusdam totam.</p>
+        <p>Sit porro soluta enim, placeat, ex nam odit reprehenderit illo modi ipsum, totam, consequuntur fugiat sed. Suscipit facilis vitae exercitationem cupiditate rem ex et nisi laborum, placeat fuga culpa sapiente aperiam praesentium eaque quibusdam, architecto nihil quaerat totam blanditiis quia!</p>
+        <p>Ullam quas harum quibusdam recusandae pariatur excepturi minima, in sit facere assumenda a voluptatem eius quod nulla quo non eum explicabo ducimus sapiente, fugiat adipisci atque vero, delectus, iusto at. Enim, quibusdam, inventore. Inventore, eos dolorem voluptatem id assumenda excepturi.</p>
+        <p>Soluta, laboriosam perspiciatis quasi sed, officiis atque deleniti tempore quod facere totam vel labore repudiandae expedita enim aspernatur ullam aperiam consequatur nemo? Enim aliquid placeat sed dolore neque laborum cupiditate, maxime, atque debitis cumque, nobis consectetur voluptatum repudiandae minima eligendi.</p>
+        <p>Optio, nisi. Veniam ratione pariatur quas fugiat commodi quia repellat temporibus necessitatibus sapiente nisi. Saepe fugit magnam aliquam est corporis tempore fugiat, esse dignissimos officiis amet repellendus quibusdam, neque debitis quaerat! Placeat aspernatur, nobis harum nesciunt odit fugit excepturi sunt!</p>
+        <p>Delectus repudiandae voluptatum nostrum minima, natus aliquid quo neque cum dolores quia quaerat dignissimos accusantium velit perspiciatis minus aperiam unde officia expedita. Veniam doloremque molestias asperiores quas rem tenetur, nostrum aliquid rerum commodi sed minima, odio officia, ut magni, doloribus!</p>
+        <p>Veritatis consectetur in atque eius, totam dolorem, quia animi asperiores ipsam, natus nihil, eum repudiandae quod. Vel nobis sint adipisci, inventore mollitia recusandae velit ducimus provident beatae soluta atque, facere! Iste consequatur esse minima praesentium sint quae deleniti soluta, earum!</p>
+        <p>Mollitia, aliquam. Eius officiis molestias itaque commodi aliquid. Error libero aliquam earum, autem impedit nulla magni quam tenetur ab dolores porro quibusdam ullam quidem ut totam illo. Modi nulla dolores, corrupti nesciunt laboriosam nostrum tempore repellendus nisi nobis ex, labore.</p>
+        <p>Maiores eligendi mollitia ipsum deserunt harum. Voluptatum voluptate placeat inventore repudiandae a. Dignissimos iusto magni fugiat eveniet eaque commodi minus, quos laboriosam sapiente, quia quisquam ipsam facilis est error officia recusandae harum aspernatur dolor vel, maiores. Asperiores minus totam commodi.</p>
+        <p>Error nihil magnam dolor voluptatum quo quos numquam hic possimus, nemo dicta? Quasi ipsum porro excepturi autem mollitia expedita assumenda deleniti dicta, error sit, magni neque iusto eligendi quibusdam explicabo alias doloribus accusamus quo! Sit, ut. Fuga neque, modi debitis.</p>
+        <p>Voluptatibus veritatis libero iste earum nobis possimus quidem repudiandae, nam, tempora eveniet harum nemo nesciunt perferendis ullam? Sequi saepe voluptate itaque, provident! Omnis odit molestiae tempore error rem, ullam, modi corrupti architecto, earum quod natus perspiciatis sunt. Illo, repudiandae nulla.</p>
+        <p>Harum odio suscipit id deleniti ratione quis, esse hic maiores debitis nam architecto corporis beatae? Unde explicabo blanditiis soluta beatae optio enim. Fugiat cupiditate ullam, aperiam dolores ab natus est molestias excepturi placeat quas inventore sapiente numquam vitae saepe nam.</p>
+    </article>
+
+    <button id="back-to-top" style="visibility: hidden">↑</button>
+
+    <script type="module">
+        import * as BackToTop from '../index.js';
+        const element = document.querySelector('#back-to-top');
+
+        const btn = BackToTop.applyToElement(element);
+    </script>
+</body>
+</html>
