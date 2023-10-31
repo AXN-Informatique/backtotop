@@ -1,13 +1,21 @@
 {
     "type": "module",
-    "name": "backtotop",
+    "name": "@axn/backtotop",
     "version": "1.0.0",
     "description": "Simple back-to-top button library.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "",
-    "license": "MIT"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AXN-Informatique/backtotop.git"
+    },
+    "bugs": {
+        "url": "https://github.com/AXN-Informatique/backtotop/issues"
+    },
+    "homepage": "https://github.com/AXN-Informatique/backtotop#readme",
+    "author": "AXN Informatique",
+    "license": "MIT",
+    "keywords": ["a11y", "accessibility", "back-to-top"]
 }
